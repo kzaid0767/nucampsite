@@ -40,3 +40,15 @@ header h2 {
   bottom: 0;
   z-index: 100;
   /*makes button overlayed*/ }
+
+#reserveModal .modal-header {
+  background-color: #17A2BB; }
+
+#reserveModal .modal-title {
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #901CAD; }
+
+#loginModal .modal-title {
+  color: white; }

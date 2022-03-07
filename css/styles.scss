@@ -4,6 +4,7 @@ $color-pale: #CEC8FF;
 $color-mid: #901CAD;
 $color-dark: #60106b;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-teal: #17A2BB;
 
 $body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
@@ -62,3 +63,21 @@ header {
     z-index: 100; /*makes button overlayed*/
 }
 
+#reserveModal {
+    .modal-header {
+        background-color: $color-teal;
+        
+    }
+    .modal-title {
+        color: white;
+    }
+}
+
+#loginModal {
+    .modal-header {
+        background-color: $color-mid;
+    }
+    .modal-title {
+        color: white;
+    }
+}
